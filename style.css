@@ -1,0 +1,62 @@
+body {
+    background-image: url("background.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.box{
+    width: fit-content;
+    height: auto;
+    border-radius: 15px;
+    font-size: medium;
+    /* background-color: black; */
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+}
+
+
+#submit:hover{
+    box-shadow: 1px 1px rgb(196, 193, 193);
+}
+
+
+.placeholdsignup{
+    padding:5px 100px 5px 100px; 
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+
+.placeholdsignup:hover{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 1px 1px rgb(196, 193, 193);
+}
+
+#signupbtn:hover{
+    box-shadow: 1px 1px rgb(196, 193, 193);
+}
+
+.blocksbox{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: xx-large;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 80px 0px;
+    margin: auto;
+}
+
+.blocksbox:hover{
+    box-shadow: 2px 2px black;
+}

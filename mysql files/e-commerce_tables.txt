@@ -1,0 +1,28 @@
+client:
+client_id primary key
+name
+email
+phoneno.
+pass
+
+shops:
+id primary key
+name varchar
+type 
+
+
+items:
+id primary key
+shopdid
+itmen name
+price
+
+order:
+orderidprimary key
+itemid
+order qty
+usierid
+address
+
+status (pending, onways, deliverd)
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Signup</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="login.html" style="font: normal 20px 'Cookie', cursive;">EASY Shop</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="blocks.html" style="font-size: medium;" id = "home"><b>Home</b></a></li>
+            <li><a href="#" id = "contact" style="font-size: medium;"><b>Contact</b></a></li>
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <form method="POST" action="signup.php">
+            <div class="box" style="margin-top: 100px; margin-bottom: 30px;">
+                <h1 id="signup" style="color: white;"><b>Sign Up Form</b></h1>
+                <div style="padding: 10px;">
+                    <label id="username"></label>
+                    <input type="text" placeholder="Enter UserName" name="username" class="placeholdsignup">
+                </div>
+                <div style="padding: 10px;">
+                    <label id = "email"></label>
+                    <input type="email"placeholder=" Enter email-ID" name="email" class="placeholdsignup">
+                </div>  
+                <div style="padding: 10px;">
+                    <label id = "phone"></label>
+                    <input type="text" placeholder=" Enter phone number" name="phone" class="placeholdsignup">
+                </div>
+                <div style="padding: 10px;">
+                    <label id = "password"></label>
+                    <input type="password" placeholder="Password" name="pwd" class="placeholdsignup">
+                </div>  
+               
+                <div style="padding: 10px;">
+                    <!-- <a href="blocks.html" <button id="signupbtn" type="button" class= "btn-success btn-lg">Sign Up</button></a> -->
+                    <input type="submit" name="submit" value="Sign Up">
+                </div>
+            </div>
+    </form>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+      <img src="img/logo.png">
+            <h3>EASY<span>Shop</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2021 EasyShop Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                  <p><span>Thapar University</span>
+                    Patiala, Punjab</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 9999999999</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@eduonix.com">easyshop@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about" style="color:white;">
+                <span>About the company</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+            
+        </div>
+    </footer>
+    
+
+</body>
+</html>
