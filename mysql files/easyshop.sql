@@ -43,16 +43,7 @@ INSERT INTO `client` (`client_id`, `name`, `email`, `phoneno.`, `password`) VALU
 (1, 'shivam', 'shivam.shivam@gmail.com', 1236547899, 'shivam'),
 (3, 'admin', 'admin.admin@gmail.com', 9999999999, 'admin'),
 (4, 'sk', 'sk.sk@gmail.com', 1236545647, 'sk1234'),
-(5, 'sss', 'shivam.bahubali121@gamil.com', 8699069366, 'iwhvwrgvb'),
-(6, 'jjh', 'shivam.bahubali121@gamil.com', 8699069366, 'uoivhow'),
-(7, 'hhh', 'hhh@gmail.com', 1236547894, 'hhh741'),
-(9, 'nikhil', 'nikhil.nikhil@gmail.com', 123654789, 'hikkedc'),
-(10, '', '', 0, ''),
-(11, '', '', 0, ''),
-(12, 'dhanraj', 'new.new@gmail.com', 7896541239, '1234'),
-(13, 'luck', 'luck.luck@gmail.com', 7788994569, 'luck'),
-(14, 'anushka', 'new.new@gmail.com', 1234567899, 'anushka'),
-(15, 'satyam', 'satyam.new@gmail.com', 1234567890, 'satyam');
+(5, 'sss', 'shivam.bahubali121@gamil.com', 8699069366, 'iwhvwrgvb');
 
 -- --------------------------------------------------------
 
@@ -82,25 +73,7 @@ INSERT INTO `order` (`order_id`, `item_name`, `order_qty`, `user_id`, `address`)
 (7, 'Strawberry Cake', 1, 1, 'j hostal'),
 (8, 'Butterschotch Pastry', 1, 1, 'qq'),
 (9, 'Chole Samosa', 1, 1, 'a block'),
-(10, 'Black Forest Cake', 1, 1, 'aa'),
-(11, 'Butterschotch Pastry', 1, 1, 'eeee'),
-(12, 'Special Thali', 1, 1, 'D hostel'),
-(13, 'Strawberry Cake', 1, 1, 'D hostel'),
-(14, 'Rajma Rice', 1, 1, 'D hostel'),
-(15, 'Paneer Paratha', 1, 1, 'D hostel'),
-(16, 'Chole Bhature', 1, 1, 'D hostel'),
-(17, 'Masala Maggi', 1, 3, 'h hostel'),
-(18, 'Poha', 1, 3, 'h hostel'),
-(19, 'Jumbo Thali', 1, 3, 'h hostel'),
-(20, 'Cold Drinks', 1, 3, 'h hostel'),
-(21, 'French Fries', 2, 1, 'k hostel'),
-(22, 'Chilli Paneer Sandwich', 1, 1, 'k hostel'),
-(25, 'Chole Samosa', 2, 14, 'h hostel'),
-(26, 'Strawberry Cake', 1, 14, 'h hostel'),
-(27, 'Masala Maggi', 2, 15, 'b block'),
-(28, 'Poha', 1, 15, 'b block'),
-(29, 'Stuffed Paratha', 1, 15, 'b block'),
-(30, 'Jumbo Thali', 1, 15, 'b block');
+(10, 'Black Forest Cake', 1, 1, 'aa');
 
 --
 -- Indexes for dumped tables
